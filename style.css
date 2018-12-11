@@ -103,7 +103,8 @@ a>svg {
     margin-bottom: 0; 
 }
 
-h2 {
+h1 {
+    font-size: 250%;
     color: #F2F2F2;
 }
 
