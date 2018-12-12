@@ -124,6 +124,10 @@ h1 {
     color: #F2F2F2;
 }
 
+section>h2{
+    margin: 0;
+}
+
 footer {
     text-align: center;
     font-size: 85%;
