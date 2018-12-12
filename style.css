@@ -33,11 +33,6 @@ section>p {
     margin: 0;
 }
 
-center>img {
-    width: 15%;
-    height: 15%;
-}
-
 section>a {
     background-color: #545454;
     color: #f2f2f2;
@@ -99,8 +94,29 @@ a>svg {
     border-radius: 0px 0px 5px 5px;
     border-bottom: 0;
 }
+
 .features>p {
-    margin-bottom: 0; 
+    margin-bottom: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 45%;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.discordbots {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 85%;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 h1 {
@@ -112,4 +128,52 @@ footer {
     text-align: center;
     font-size: 85%;
     color: #f2f2f2;
+}
+
+@media only screen and (max-width: 800px) {
+    section>a {
+        font-size: 110%;
+    }
+
+    a>svg {
+        vertical-align: -.6em;
+        width: 2em;
+        height: 2em;
+    }
+
+    h1 {
+        font-size: 270%;
+    }
+
+    h3 {
+        font-size: 140%;
+    }
+
+    p {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    section>a {
+        font-size: 120%;
+    }
+
+    a>svg {
+        vertical-align: -.7em;
+        width: 2em;
+        height: 2em;
+    }
+
+    h1 {
+        font-size: 290%;
+    }
+
+    h3 {
+        font-size: 165%;
+    }
+
+    p {
+        font-size: 125%;
+    }
 }
