@@ -41,6 +41,7 @@ section>a {
     text-decoration: none;
     width: 100%;
     text-align: center;
+    font-size: 120%;
 }
 
 section>a:first-child {
@@ -65,12 +66,6 @@ p>a {
 p>a:hover {
     color: #9C9C9C;
     text-decoration: none;
-}
-
-a>svg {
-    vertical-align: -.4em;
-    width: 1.5em;
-    height: 1.5em;
 }
 
 .features {
@@ -124,7 +119,7 @@ h1 {
     color: #F2F2F2;
 }
 
-section>h2{
+section>h2 {
     margin: 0;
 }
 
@@ -136,13 +131,7 @@ footer {
 
 @media only screen and (max-width: 800px) {
     section>a {
-        font-size: 110%;
-    }
-
-    a>svg {
-        vertical-align: -.6em;
-        width: 2em;
-        height: 2em;
+        font-size: 125%;
     }
 
     h1 {
@@ -160,13 +149,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
     section>a {
-        font-size: 120%;
-    }
-
-    a>svg {
-        vertical-align: -.7em;
-        width: 2em;
-        height: 2em;
+        font-size: 130%;
     }
 
     h1 {
