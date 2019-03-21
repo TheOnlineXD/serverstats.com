@@ -136,6 +136,20 @@ footer {
     color: black;
     font-weight: bold;
 }
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4B5F83;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7289DA; 
+}
+
 @media only screen and (max-width: 1300px) {
     body {
         padding-top: 3%;
@@ -158,11 +172,11 @@ footer {
     }
 
     h3 {
-        font-size: 140%;
+        font-size: 145%;
     }
 
     p {
-        font-size: 110%;
+        font-size: 130%;
     }
 }
 
@@ -172,7 +186,7 @@ footer {
     }
 
     h1 {
-        font-size: 290%;
+        font-size: 255%;
     }
 
     h3 {
@@ -181,5 +195,41 @@ footer {
 
     p {
         font-size: 125%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    section>a {
+        font-size: 100%;
+    }
+
+    h1 {
+        font-size: 230%;
+    }
+
+    h3 {
+        font-size: 135%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    section>a {
+        font-size: 70%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h3 {
+        font-size: 105%;
+    }
+
+    p {
+        font-size: 75%;
     }
 }
