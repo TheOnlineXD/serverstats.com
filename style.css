@@ -1,9 +1,9 @@
 body {
     margin: 0;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    background-color: #9C9C9C;
-    color: #f2f2f2;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    background-color: white;
+    color: white;
 }
 
 section {
@@ -14,13 +14,13 @@ section {
     max-width: 1200px;
     width: 95%;
     border-radius: 5px;
-    background-color: #545454;
-    border: 1px solid rgba(0, 0, 0, .125);
-    box-shadow: 0 5px 10px rgba(84, 84, 84, 0.8);
+    background-color: #4B5F83;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    box-shadow: 0 6px 10px rgba(120, 120, 120, 0.75);
 }
 
 section:hover {
-    box-shadow: 0 8px 13px rgba(84, 84, 84, 0.8);
+    box-shadow: 0 9px 13px rgba(120, 120, 120, 0.75);
 }
 
 section::after {
@@ -34,18 +34,20 @@ section>p {
 }
 
 section>a {
-    background-color: #545454;
-    color: #f2f2f2;
+    background-color: #4B5F83;
+    color: white;
     display: block;
     padding: 20px;
     text-decoration: none;
     width: 100%;
     text-align: center;
     font-size: 120%;
+    border-top: 2px solid rgba(20, 20, 20, 0.125);
 }
 
 section>a:first-child {
     border-radius: 5px 5px 0px 0px;
+    
 }
 
 section>a:last-child {
@@ -53,28 +55,29 @@ section>a:last-child {
 }
 
 section>a:hover {
-    color: #0072C4;
+    color: white;
     text-decoration: none;
-    background-color: #9C9C9C;
+    background-color: #7289DA;
 }
 
 p>a {
-    color: #0072C4;
+    color: white;
     text-decoration: none;
 }
 
 p>a:hover {
-    color: #9C9C9C;
+    color: #4B5F83;
     text-decoration: none;
 }
 
 .features {
     padding: 15px;
-    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    border-bottom: 2px solid rgba(20, 20, 20, 0.125);
+    text-align: center;
 }
 
 .features:hover {
-    background-color: #9C9C9C;
+    background-color: #7289DA;
 }
 
 .features:first-child {
@@ -82,7 +85,7 @@ p>a:hover {
 }
 
 .features:first-child:hover {
-    background-color: #545454;
+    background-color: #4B5F83;
 }
 
 .features:last-child {
@@ -116,11 +119,11 @@ p>a:hover {
 
 h1 {
     font-size: 250%;
-    color: #F2F2F2;
+    color: white;
 }
 
 h3 {
-    color: #F2F2F2;
+    color: white;
 }
 
 section>h2 {
@@ -130,7 +133,8 @@ section>h2 {
 footer {
     text-align: center;
     font-size: 85%;
-    color: #f2f2f2;
+    color: black;
+    font-weight: bold;
 }
 @media only screen and (max-width: 1300px) {
     body {
