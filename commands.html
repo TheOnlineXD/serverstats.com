@@ -23,125 +23,131 @@
 		<a href="index.html"><b>GO BACK</b></a>
     </section>
 
-    <!-- Section 2 -->
     <section>
         <div class="features">
-            <h1>Normal Commands</h1>
-        </div>
-        <div class="features">
-            <h3>s/help</h3>
+            <h1>Important</h1>
             <p>
-                Sends a DM message with all the available commands.
+                You need to run the setup command first, without it the bot won't do much. Use <b>s/setup</b> or <b>@mention setup</b> to run the setup, and if you want to use the other counters (like online counter) you need to turn it on. 
             </p>
         </div>
-	<div class="features">
+    </section>
+
+    <section>
+        <div class="features">
+            <h1>Normal</h1>
+        </div>
+        <div class="features">
+            <h3>s/help &#60;command&#62;</h3>
+            <p>
+                Send all the commands if you don't put a command after it else it will if info about the command.
+            </p>
+        </div>
+	    <div class="features">
             <h3>s/customize</h3>
             <p>
-                Sends a message about how to change the counters.
+                Sends info about how to customize the counters.
             </p>
         </div>
         <div class="features">
             <h3>s/ping</h3>
             <p>
-                Sends a pong message in the channel with latency in MS.
+                Sends a pong message with latency.
             </p>
         </div>
         <div class="features">
             <h3>s/invite</h3>
             <p>
-                Sends an DM message with a invite link for the bot.
+                Sends an invite link for the bot.
             </p>
         </div>
         <div class="features">
             <h3>s/vote</h3>
             <p>
-                Sends a DM message with a link to the vote page and instructions on how to vote.
+                Sends instructions on how to vote for the bot.
             </p>
         </div>
         <div class="features">
             <h3>s/donate</h3>
             <p>
-                Sends a DM message with a link to donate and instructions on how to do it.
+                Sends instructions on how to donate.
             </p>
         </div>
 	<div class="features">
-            <h3>s/error</h3>
+            <h3>s/support</h3>
             <p>
-                Sends a DM message with info about what-to-do if there is a problem.
+                Sends info about how to get help.
             </p>
         </div>
     </section>
 	
-    <!-- Section 3 -->
     <section>
         <div class="features">
-            <h1>Info Commands</h1>
-        </div>
-        <div class="features">
-            <h3>s/info</h3>
-            <p>
-                Sends a message with infomation about the bot like: version, ram, shards info and how many server he is in.
-            </p>
-        </div>
-        <div class="features">
-            <h3>s/serverinfo</h3>
-            <p>
-                Sends information about the server you use the command in.
-            </p>
-        </div>
-        <div class="features">
-            <h3>s/userinfo &#60;ID/mention&#62;</h3>
-            <p>
-                Sends information about the user you have mentioned or the ID you have given.
-            </p>
-        </div>
-        <div class="features">
-            <h3>s/avatar &#60;ID/mention&#62;</h3>
-            <p>
-                Sends the avatar from the user you have mentioned or the ID you have given.
-            </p>
-        </div>
-    </section>
-	
-    <!-- Section 3 -->
-    <section>
-        <div class="features">
-            <h1>Admin Commands</h1>
+            <h1>Admin</h1>
         </div>
         <div class="features">
             <h3>s/setup</h3>
             <p>
-                A command to set up the bot (Can only be used ones), this will create some channels.
+                This command will set up the bot and create the 3 default counters.
             </p>
         </div>
         <div class="features">
-            <h3>s/refresh</h3>
+            <h3>s/counter &#60;counter&#62; &#60;on/off&#62;</h3>
             <p>
-                Force refresh the counters (only use this if you thinks that the data is wrong).
+                With this command you can turn on/off counter.
             </p>
         </div>
         <div class="features">
             <h3>s/data</h3>
             <p>
-                Shows you the data from FireStore (only shows your server data).
+                This will send all the data saved about your server.
             </p>
         </div>
         <div class="features">
-            <h3>s/remake</h3>
+            <h3>s/category</h3>
             <p>
-                This will delete the old channel (if they're still there) and replace them with new ones so the channel will be set to default.
+                This will create a new category and puts the counter under it. (you don't need a category)
             </p>
         </div>
-	<div class="features">
-            <h3>s/category &#60;ID&#62;</h3>
+	    <div class="features">
+            <h3>s/prefix &#60;prefix&#62;</h3>
             <p>
-                Change or set the category where the channels will be created for the remake command.
+                This will change the prefix.
             </p>
         </div>
-	<div class="features">
-            <h3>s/channel &#60;all/members/bots&#62; &#60;ID/mention&#62;</h3>
+        <div class="features">
+            <h3>s/prmission &#60;premission&#62;</h3>
             <p>
-                Change one of the counters to another channel (can be a text or voice channel), keep in mind that there must be a number in the name to change.
+                This will change the permission needed for using admin commands.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="features">
+            <h1>Info</h1>
+        </div>
+        <div class="features">
+            <h3>s/info</h3>
+            <p>
+                Sends info about the bot.
+            </p>
+        </div>
+        <div class="features">
+            <h3>s/serverinfo</h3>
+            <p>
+                Sends info about the server.
+            </p>
+        </div>
+        <div class="features">
+            <h3>s/userinfo &#60;ID/mention&#62;</h3>
+            <p>
+                ends info about an user.
+            </p>
+        </div>
+        <div class="features">
+            <h3>s/avatar &#60;ID/mention&#62;</h3>
+            <p>
+                Sends the avatar form an user.
             </p>
         </div>
     </section>
