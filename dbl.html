@@ -49,9 +49,9 @@
 <body>
     <section>
         <div class="features">
-            <h1>Important</h1>
+            <h1>IMPORTANT</h1>
             <p>
-                You need to run the setup command first, without it the bot won't do much. Use <b>s/setup</b> or <b>@ServerStats setup</b> to run the setup. The following counter are supported <b>all members</b>, <b>members</b>, <b>bots</b>, <b>channels</b>, <b>categories</b>, <b>voice</b>, <b>text</b>, <b>roles</b>, <b>online</b>, <b>offline</b>, <b>role</b>, <b>emojis</b>, <b>static</b>, <b>animated</b>, <b>bans</b>, <b>connected</b>, <b>status</b>, <b>playing</b> and <b>minecraft</b>, use <b>s/counter</b> or <b>@ServerStats counter</b> to see more information about the counters. 
+                You need to run the setup command first, without it the bot won't do much. Use <b>s/setup</b> or <b>@ServerStats setup</b> to run the setup. The following counter are supported <b>all members</b>, <b>members</b>, <b>bots</b>, <b>channels</b>, <b>roles</b>, <b>emojis</b><b>boosts</b>, <b>connected</b>, use <b>s/counter</b> or <b>@ServerStats counter</b> to see more information about the counters. 
             </p>
         </div>
     </section>
@@ -64,12 +64,6 @@
             <h3>s/help &#60;command&#62;</h3>
             <p>
                 Send all the commands if you don't put a command after it else it will if info about the command.
-            </p>
-        </div>
-	    <div class="features">
-            <h3>s/customize</h3>
-            <p>
-                Sends info about how to customize the counters.
             </p>
         </div>
         <div class="features">
@@ -108,72 +102,6 @@
                 Sends info about our partners.
             </p>
         </div>
-	<div class="features">
-            <h3>s/leaderboard</h3>
-            <p>
-                Send you a list of the top 10 DBL voters.
-            </p>
-        </div>
-    </section>
-	
-    <section>
-        <div class="features">
-            <h1>Admin</h1>
-        </div>
-        <div class="features">
-            <h3>s/setup</h3>
-            <p>
-                This command will set up the bot and create the 3 default counters.
-            </p>
-        </div>
-        <div class="features">
-            <h3>s/counter &#60;counter&#62; &#60;on/off&#62;</h3>
-            <p>
-                With this command you can turn on/off counter.
-            </p>
-        </div>
-        <div class="features">
-            <h3>s/data &#60;type&#62;</h3>
-            <p>
-                This will send all the data saved about your server.
-            </p>
-        </div>
-        <div class="features">
-            <h3>s/category</h3>
-            <p>
-                This will create a new category and puts the counter under it. (you don't need a category)
-            </p>
-        </div>
-	    <div class="features">
-            <h3>s/prefix &#60;prefix&#62;</h3>
-            <p>
-                This will change the prefix.
-            </p>
-        </div>
-        <div class="features">
-            <h3>s/permission &#60;permission&#62;</h3>
-            <p>
-                This will change the permission needed for using admin commands.
-            </p>
-        </div>
-        <div class="features">
-            <h3>s/welcome &#60;on/off&#62;</h3>
-            <p>
-                This will create a join and leave log channel.
-            </p>
-        </div>
-        <div class="features">
-            <h3>s/minecraft &#60;on/off&#62; &#60;IP&#62;</h3>
-            <p>
-                This will create a minecraft server info counter (port is not required).
-            </p>
-        </div>
-        <div class="features">
-            <h3>s/goal &#60;type&#62;</h3>
-            <p>
-                This will create a goal counter and message.
-            </p>
-        </div>
     </section>
 
     <section>
@@ -181,7 +109,7 @@
             <h1>Info</h1>
         </div>
         <div class="features">
-            <h3>s/info</h3>
+            <h3>s/bot</h3>
             <p>
                 Sends info about the bot.
             </p>
@@ -222,16 +150,52 @@
                 Sends the avatar form an user.
             </p>
         </div>
-	<div class="features">
-            <h3>s/check</h3>
+    </section>
+	
+    <section>
+        <div class="features">
+            <h1>Admin</h1>
+        </div>
+        <div class="features">
+            <h3>s/setup</h3>
             <p>
-                This will check if the bot has the right permissions to do stuff.
+                This command will set up the bot and create the 3 default counters.
             </p>
         </div>
-	<div class="features">
-            <h3>s/stats</h3>
+        <div class="features">
+            <h3>s/counter &#60;create&#62;</h3>
             <p>
-                Show the amount of server the bot gained.
+                With this command you can turn on/off counter.
+            </p>
+        </div>
+        <div class="features">
+            <h3>s/reset &#60;create&#62;</h3>
+            <p>
+                With this command you can reset the counters.
+            </p>
+        </div>
+        <div class="features">
+            <h3>s/data &#60;type&#62;</h3>
+            <p>
+                This will send all the data saved about your server.
+            </p>
+        </div>
+        <div class="features">
+            <h3>s/category</h3>
+            <p>
+                This will create a new category and puts the counter under it. (you don't need a category)
+            </p>
+        </div>
+        <div class="features">
+            <h3>s/welcome &#60;create&#62;</h3>
+            <p>
+                This will create a join and leave log channel.
+            </p>
+        </div>
+        <div class="features">
+            <h3>s/goal &#60;create&#62;</h3>
+            <p>
+                This will create a goal counter and message.
             </p>
         </div>
     </section>
