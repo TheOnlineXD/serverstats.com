@@ -19,6 +19,16 @@ section {
     box-shadow: 0 6px 10px rgba(120, 120, 120, 0.75);
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7289da !important;
+    text-decoration: none;
+}
+
 section:hover {
     box-shadow: 0 9px 13px rgba(120, 120, 120, 0.75);
 }
@@ -66,16 +76,6 @@ p>a {
 }
 
 p>a:hover {
-    color: #7289da;
-    text-decoration: none;
-}
-
-b>a {
-    color: white;
-    text-decoration: none;
-}
-
-b>a:hover {
     color: #7289da;
     text-decoration: none;
 }
