@@ -70,6 +70,16 @@ p>a:hover {
     text-decoration: none;
 }
 
+b>a {
+    color: white;
+    text-decoration: none;
+}
+
+b>a:hover {
+    color: #7289da;
+    text-decoration: none;
+}
+
 .features {
     padding: 15px;
     border-bottom: 2px solid rgba(20, 20, 20, 0.125);
